@@ -12,21 +12,6 @@ Application consists of following parts:
 2. Backoffice - React
 3. API Backend - Node.js, Express, MongoDb
 
-## Screenshots
-
-### Store
-
-<img src="https://github.com/mishast/FoodDelivery/raw/master/docs/github_mockup_store.png">
-
-### Admin
-
-<img src="https://github.com/mishast/FoodDelivery/raw/master/docs/github_mockup_admin.png">
-
-## Live demo
-
-* To view storefront, [click here](https://store.food-delivery.mishast.com)
-* To view Backoffice, [click here](https://admin.food-delivery.mishast.com)
-
 ## Features
 
 Storefront:
@@ -62,51 +47,3 @@ Dashboard:
 10. [React Router v4](https://reacttraining.com/react-router/web/guides/quick-start) - router
 11. [Express](https://expressjs.com/) - web framework
 
-## Setup
-### Prerequisites
-* Install Node.js >= 10
-* Install MongoDB
-### Seed database
-* Go to 'backends/express'
-* Install 'dependencies'
-```
-yarn install
-```
-* Seed database
-```
-yarn run seed
-```
-### Start backend
-* Go to 'backends/express'
-* Install dependencies
-```
-yarn install
-```
-* Start backend
-```
-yarn run start
-```
-### Start storefront
-* Go to 'web/store/react'
-* Install dependencies
-```
-yarn install
-```
-* Buld storefront
-```
-yarn run build:dev
-```
-* Start storefront
-```
-yarn run start
-```
-### Start Backoffice
-* Go to 'web/admin/react'
-* Install dependencies
-```
-yarn install
-```
-* Start Backoffice
-```
-yarn run start
-```
