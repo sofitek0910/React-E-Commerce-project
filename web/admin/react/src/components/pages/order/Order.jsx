@@ -12,7 +12,6 @@ const _BackButton = (props) =>
 
 const BackButton = withRouter(_BackButton);
 
-
 function displayCurrency(value) {
 	const floatValue = parseFloat(value);
 	return floatValue.toFixed(2);
