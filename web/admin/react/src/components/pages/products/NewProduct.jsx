@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+   
 class NewProduct extends Component {
 
 	render() {
