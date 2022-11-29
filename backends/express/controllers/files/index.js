@@ -5,7 +5,7 @@ import formidable from 'formidable';
 import sanitize from 'sanitize-filename';
 import config from '../../config';
 import errorHandler from '../../utils/errorHandler';
-
+ 
 const getSafeFilePath = req => {
 	const { id } = req.params;
 	const safeId = id.replace(/[^a-zA-Z0-9-]/g, '');
