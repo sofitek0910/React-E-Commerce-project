@@ -72,7 +72,7 @@ Response:
     "qty": 1
   }
 ]
-
+ 
 Url: /api/v1/customer/:id/cart/updateItem
 Method: POST
 Auth: Customer. Header "Authrorization: Bearer CustomerJWT"
