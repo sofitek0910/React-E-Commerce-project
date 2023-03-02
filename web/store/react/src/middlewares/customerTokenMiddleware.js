@@ -10,3 +10,4 @@ const customerTokenMiddleware = () => next => action => {
 };
 
 export default customerTokenMiddleware;
+ 
