@@ -12,7 +12,7 @@ const initialState = {
 	orders: null,
 	order: null
 };
-
+  
 export default (state = initialState, action) => {
 	switch (action.type) {
 		case types.CLOSE_DRAWER:
