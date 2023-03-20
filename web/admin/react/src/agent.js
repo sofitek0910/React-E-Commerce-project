@@ -21,14 +21,14 @@ const login = async (username, password) => {
 		});
 
 		if (response.data) {
-			const { data } = response;
+			const { data } = response; 
 
 			if (data.result === 'success') {
 				setToken(data.token);
 			}
 
 			return data;
-		}
+		} 
 		return {
 			result: 'connection_error',
 			errorText: 'Request error'
