@@ -8,6 +8,6 @@ const tokenMiddleware = () => next => action => {
 	}
 
 	next(action);
-};
+}; 
 
 export default tokenMiddleware;

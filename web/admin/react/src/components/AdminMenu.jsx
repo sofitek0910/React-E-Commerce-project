@@ -9,7 +9,7 @@ const { SubMenu } = Menu;
 class AdminMenu extends Component {
 	logout = () => {
 		this.props.logout();
-	};
+	}; 
 
 	render() {
 		return (
